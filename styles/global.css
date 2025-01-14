@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --red: #e3646e;
+  --purple: #bb72e9;
+  --blue: #3996db;
+  --green: #82bc4f;
+  --yellow: #eabd5f;
+
+  --gray-100: #0d0e11;
+  --gray-200: #16181d;
+  --gray-300: #292c34;
+  --gray-400: #878ea1;
+  --gray-500: #c0c4ce;
+  --gray-600: #e2e4e9;
+
+  --font-title: "Asap", sans-serif;
+  --font-sub: "Inconsolata", sans-serif;
+  --font-text: "Maven Pro", sans-serif;
+
+  --title-lg: bold 56px/120% var(--font-title);
+  --title-md: bold 24px/120% var(--font-title);
+  --title-sm: bold 1rem/120% var(--font-title);
+  --subtitle: 20px/120% var(--font-sub);
+  --text-md: 1rem/140% var(--font-text);
+  --text-sm: 14px/140% var(--font-text);
+}

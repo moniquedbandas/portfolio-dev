@@ -1,0 +1,53 @@
+.info-contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(/assets/Background_Contacts.png) no-repeat center/cover;
+  height: 787px;
+  padding: 128px 120px 200px;
+
+  & p:nth-child(1) {
+    font: var(--subtitle);
+    padding-bottom: 8px;
+    & span {
+      color: var(--purple);
+    }
+  }
+  & p:nth-child(2) {
+    font: var(--title-md);
+    color: var(--gray-600);
+    padding-bottom: 8px;
+  }
+  & p:nth-child(3) {
+    font: var(--text-md);
+    color: var(--gray-500);
+  }
+}
+.redes-sociais {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 48px;
+
+  & .redes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 20px;
+    gap: 1rem;
+    width: 400px;
+    height: 68px;
+    background-color: var(--gray-300);
+  }
+  & p {
+    font: var(--text-md);
+    color: var(--gray-500);
+  }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}

@@ -1,7 +1,4 @@
-.intro {
-  top: 0;
-  border: 1px solid black;
-  /* width: 1366px; */
+header {
   height: 750px;
   background: url(/assets/Background_Intro.png) no-repeat center/cover;
 }
@@ -9,13 +6,15 @@
 .avatar {
   display: flex;
   justify-content: center;
-  margin-top: 120px;
+
+  & img {
+    padding-top: 120px;
+  }
 }
 .description {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* width: 680px; */
 
   & > p:nth-child(1) {
     font: var(--subtitle);
